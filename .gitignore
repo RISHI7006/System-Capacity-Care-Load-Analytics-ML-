@@ -1,0 +1,9 @@
+# .gitignore - keep sensitive / large files out of version control
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.streamlit/secrets.toml
+*.log
+cleaned_uac_data.py_output.csv
+interpolated_daily_uac.csv
